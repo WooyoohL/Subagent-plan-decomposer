@@ -75,7 +75,7 @@ $subagent-plan-decomposer
 把这个执行计划拆成主 agent 和多个子 agent 可以并行执行的版本，要求保留主 agent 的最终决策权。
 ```
 
-如果你希望后续真正执行子 agent，需要在后续提示中明确要求 Codex spawn agents，例如：
+真正执行方案时，需要在后续提示中明确要求 Codex spawn agents，例如：
 
 ```text
 根据上面的 Subagent-Ready 方案，实际启动对应子 agent，等待所有 join gate 完成后汇总。
