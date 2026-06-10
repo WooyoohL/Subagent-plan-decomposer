@@ -1,4 +1,4 @@
-# subagent-plan-decomposer
+# Subagent-plan-decomposer
 
 把已有方案改写成适合「主 agent + 子 agent」协作执行的委派方案。
 
